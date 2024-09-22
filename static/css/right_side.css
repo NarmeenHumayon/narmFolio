@@ -6,6 +6,12 @@
   flex-direction: column;
   background-color: #ffffff;
 }
+.right .section-heading {
+  color: #005c85;
+  border-color: #005c85;
+  margin: 20px 40px;
+}
+
 .heading {
   background-color: #00000009;
   width: 90%;
