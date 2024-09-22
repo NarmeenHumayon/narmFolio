@@ -18,3 +18,37 @@
   margin: 40px auto;
   border-radius: 50%;
 }
+.left-section-heading {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 0 15px;
+  padding-bottom: 10px;
+  width: fit-content;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ffffff;
+}
+
+.info {
+  margin: 25px 15px;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.info a {
+  text-decoration: none;
+  color: rgb(178, 227, 255);
+  transition: all 0.3s ease;
+}
+.info a:hover {
+  color: rgb(5, 100, 243);
+  text-decoration: underline;
+}
+.contact-info-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
