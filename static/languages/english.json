@@ -1,0 +1,52 @@
+{
+  "about": "About",
+  "projectstxt": "Projects",
+  "awardstxt": "Awards",
+  "educationtxt": "Education",
+  "contact":"Contact",
+  "skillstxt":"Skills", 
+  "awardscertif":"AWARDS & CERTIFICATIONS",
+  "skills":[
+    {"name":"HTML",
+    "proficiency":"80%"
+  },
+    {"name":"JavaScript",
+    "proficiency":"100%"
+  },
+    {"name":"TypeScript",
+    "proficiency":"100%"
+  },
+    {"name":"DJANGO",
+    "proficiency":"90%"
+  },
+    {"name":"NEXTJS",
+    "proficiency":"80%"
+  }
+  ],
+  "projects": [
+    {
+        "name":"minecraft",
+        "datetime":"21st sep 2021 - 22nd sep 2023",
+        "description":"I made minecraft from scratch in assembly language"
+    },
+    {
+        "name":"minecraft2",
+        "datetime":"21st sep 2021 - 22nd sep 2023",
+        "description":"I made minecraft2 from scratch on a transistor using machine code"
+    }
+  ],"awards": [
+    {
+        "name":"Code Rush",
+        "datetime":"21st sep 2023",
+        "description":"Participated in code rush GDSC ITU 2023 and got 1st position Alhamdulillah"
+    } 
+  ],"education": [
+    {
+        "name":"BSCS",
+        "institute":"Information Technology University",
+        "datetime":"21st sep 2023",
+        "description":"Participated in code rush GDSC ITU 2023 and got 1st position Alhamdulillah"
+
+    }
+  ]
+}

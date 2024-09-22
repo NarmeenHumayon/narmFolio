@@ -18,10 +18,10 @@
     <nav class="navbar">
       <div class="logo"></div>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#awards">Awards</a></li>
-        <li><a href="#education">Education</a></li>
+        <li><a href="#about" class="about"></a></li>
+        <li><a href="#projects" class="project"> </a></li>
+        <li><a href="#awards" class="award"> </a></li>
+        <li><a href="#education" class="education"> </a></li>
       </ul>
     </nav>
     <!-- Left side of the page -->
@@ -31,7 +31,7 @@
       <div class="profilePic" id="about" title="picture"></div>
 
       <!-- Contact section -->
-      <div class="section-heading">Contact</div>
+      <div class="section-heading" id="contact"></div>
       <!-- div.info is a div with flex-dir column and some gap -->
       <div class="info">
         <!-- each item has an svg icon and its value -->
@@ -98,9 +98,9 @@
       </div>
 
       <!-- Skills section -->
-      <div class="section-heading" style="margin-top: 20px">Skills</div>
+      <div class="section-heading" style="margin-top: 20px" id="skills"></div>
 
-      <div class="container">
+      <div class="container" id="skill_inject">
         <div class="skill-box">
           <span class="title">HTML</span>
 
@@ -155,18 +155,19 @@
       ></iframe>
       <!-- projects section -->
       <div
-        id="projects"
+        id="project"
         class="section-heading"
         style="color: #005c85; border-color: #005c85; margin: 20px 40px"
-      >
-        Projects
-      </div>
-      <div class="project-card">
-        <div class="p_head">
-          <h3 class="p_name">minecraft</h3>
-          21st sep 2021 - 22nd sep 2023
+        class="project"
+      ></div>
+      <div id="projects_inject">
+        <div class="project-card">
+          <div class="p_head">
+            <h3 class="p_name">minecraft</h3>
+            21st sep 2021 - 22nd sep 2023
+          </div>
+          I made minecraft from scratch in assembly language
         </div>
-        I made minecraft from scratch in assembly language
       </div>
       <div
         class="section-heading"
@@ -177,16 +178,16 @@
           margin-top: 50px;
         "
         id="awards"
-      >
-        Awards & certifications
-      </div>
-      <div class="project-card">
-        <div class="p_head">
-          <h3 class="p_name">Code Rush</h3>
-          21st sep 2023
+      ></div>
+      <div id="awards_inject">
+        <div class="project-card">
+          <div class="p_head">
+            <h3 class="p_name">Code Rush</h3>
+            21st sep 2023
+          </div>
+          Participated in code rush GDSC ITU 2023 and got 1st position
+          Alhamdulillah
         </div>
-        Participated in code rush GDSC ITU 2023 and got 1st position
-        Alhamdulillah
       </div>
       <div
         class="section-heading"
@@ -197,17 +198,18 @@
           margin: 20px 40px;
           margin-top: 50px;
         "
-      >
-        Education
-      </div>
-      <div class="edu-card">
-        <div class="e_head">
-          <h3 class="e_name">BSCS</h3>
-          21st sep 2021 - 22nd sep 2023
+      ></div>
+      <div id="education_inject">
+        <div class="edu-card">
+          <div class="e_head">
+            <h3 class="e_name">BSCS</h3>
+            21st sep 2021 - 22nd sep 2023
+          </div>
+          <div class="institute">Information technology university</div>
+          I made minecraft from scratch in assembly language
         </div>
-        <div class="institute">Information technology university</div>
-        I made minecraft from scratch in assembly language
       </div>
     </div>
+    <script src="static/script/populate.js"></script>
   </body>
 </html>
