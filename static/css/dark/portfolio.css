@@ -181,6 +181,13 @@ body {
   .right .heading {
     display: none;
   }
+  .project-card,
+  .edu-card,
+  .right .section-heading {
+    margin-left: 20px !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .navigation-ops {
     display: none;
