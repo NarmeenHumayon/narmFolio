@@ -45,11 +45,41 @@
   display: flex;
   width: 100%;
   font-size: 12px;
-  color: #464646;
+  color: #398dfa;
   justify-content: space-between;
 }
 .p_name {
   color: black;
   font-size: 30px;
   margin-top: 0;
+}
+
+.edu-card {
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px 2px #00000046;
+  width: 90%;
+  padding: 10px;
+  margin: 0 40px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.e_head {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  color: #398dfa;
+  justify-content: space-between;
+}
+.e_name {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+.institute {
+  color: black;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 5px 0;
+  margin-bottom: 10px;
 }

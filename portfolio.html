@@ -18,17 +18,17 @@
     <nav class="navbar">
       <div class="logo"></div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#education">Education</a></li>
       </ul>
     </nav>
     <!-- Left side of the page -->
     <div class="left">
       <!-- profile pic -->
       <!-- profile pic is displayed in a div so the image doesnt get distorted when aspect ratio is not 1:1 -->
-      <div class="profilePic"></div>
+      <div class="profilePic" id="about" title="picture"></div>
 
       <!-- Contact section -->
       <div class="section-heading">Contact</div>
@@ -155,6 +155,7 @@
       ></iframe>
       <!-- projects section -->
       <div
+        id="projects"
         class="section-heading"
         style="color: #005c85; border-color: #005c85; margin: 20px 40px"
       >
@@ -162,9 +163,49 @@
       </div>
       <div class="project-card">
         <div class="p_head">
-          <h1 class="p_name">minecraft</h1>
+          <h3 class="p_name">minecraft</h3>
           21st sep 2021 - 22nd sep 2023
         </div>
+        I made minecraft from scratch in assembly language
+      </div>
+      <div
+        class="section-heading"
+        style="
+          color: #005c85;
+          border-color: #005c85;
+          margin: 20px 40px;
+          margin-top: 50px;
+        "
+        id="awards"
+      >
+        Awards & certifications
+      </div>
+      <div class="project-card">
+        <div class="p_head">
+          <h3 class="p_name">Code Rush</h3>
+          21st sep 2023
+        </div>
+        Participated in code rush GDSC ITU 2023 and got 1st position
+        Alhamdulillah
+      </div>
+      <div
+        class="section-heading"
+        id="education"
+        style="
+          color: #005c85;
+          border-color: #005c85;
+          margin: 20px 40px;
+          margin-top: 50px;
+        "
+      >
+        Education
+      </div>
+      <div class="edu-card">
+        <div class="e_head">
+          <h3 class="e_name">BSCS</h3>
+          21st sep 2021 - 22nd sep 2023
+        </div>
+        <div class="institute">Information technology university</div>
         I made minecraft from scratch in assembly language
       </div>
     </div>
