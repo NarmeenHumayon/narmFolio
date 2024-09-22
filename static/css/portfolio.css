@@ -53,6 +53,20 @@ body {
   transition: background 0.3s;
 }
 
+.lang-dropdown {
+  color: rgb(23, 23, 23);
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.lang-dropdown svg {
+  fill: rgb(32, 32, 32);
+  margin-left: 10px;
+}
 .section-heading {
   color: white;
   font-size: 25px;

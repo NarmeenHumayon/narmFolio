@@ -27,7 +27,7 @@ body {
   transition: all 0.3s ease;
 }
 .navbar a:hover {
-  background-color: #063f7f;
+  background-color: #340505;
 }
 .logo {
   color: #fff;
@@ -53,6 +53,20 @@ body {
   transition: background 0.3s;
 }
 
+.lang-dropdown {
+  color: white;
+  border-radius: 10px;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.lang-dropdown svg {
+  fill: white;
+  margin-left: 10px;
+}
 .section-heading {
   color: white;
   font-size: 25px;
