@@ -1,0 +1,11 @@
+.left {
+  margin-top: 100px;
+  width: 30%;
+  min-width: fit-content;
+  height: inherit;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #005c85;
+}
