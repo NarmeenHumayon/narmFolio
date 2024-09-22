@@ -172,8 +172,14 @@ body {
     min-width: 97% !important;
     padding-bottom: 0 !important;
   }
+  .left .heading {
+    display: flex !important;
+  }
   .right {
     min-width: 97% !important;
+  }
+  .right .heading {
+    display: none;
   }
 @media only screen and (max-width: 600px) {
   .navigation-ops {

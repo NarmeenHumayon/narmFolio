@@ -9,6 +9,9 @@
 
   background-color: #361616;
 }
+.left .heading {
+  display: none;
+}
 .profilePic {
   background-image: url("../../media/profilePic.jpeg");
   background-size: cover;
