@@ -1,0 +1,58 @@
+{
+  "about": "Über",
+  "projectstxt": "Projekte",
+  "awardstxt": "Auszeichnungen",
+  "educationtxt": "Bildung",
+  "contact": "Kontakt",
+  "skillstxt": "Fähigkeiten",
+  "awardscertif": "AUSZEICHNUNGEN & ZERTIFIKATE",
+  "skills": [
+    {
+      "name": "HTML",
+      "proficiency": "80%"
+    },
+    {
+      "name": "JavaScript",
+      "proficiency": "100%"
+    },
+    {
+      "name": "TypeScript",
+      "proficiency": "100%"
+    },
+    {
+      "name": "DJANGO",
+      "proficiency": "90%"
+    },
+    {
+      "name": "NEXTJS",
+      "proficiency": "80%"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Minecraft",
+      "datetime": "21. September 2021 - 22. September 2023",
+      "description": "Ich habe Minecraft von Grund auf in Assemblersprache gemacht"
+    },
+    {
+      "name": "Minecraft 2",
+      "datetime": "21. September 2021 - 22. September 2023",
+      "description": "Ich habe Minecraft 2 von Grund auf auf einem Transistor mit Maschinenkode erstellt"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Code Rush",
+      "datetime": "21. September 2023",
+      "description": "Teilgenommen am Code Rush GDSC ITU 2023 und den 1. Platz erreicht, Alhamdulillah"
+    }
+  ],
+  "education": [
+    {
+      "name": "BSCS",
+      "institute": "Universität für Informationstechnologie",
+      "datetime": "21. September 2023",
+      "description": "Teilgenommen am Code Rush GDSC ITU 2023 und den 1. Platz erreicht, Alhamdulillah"
+    }
+  ]
+}

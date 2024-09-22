@@ -1,0 +1,58 @@
+{
+  "about": "کے بارے میں",
+  "projectstxt": "پروجیکٹس",
+  "awardstxt": "ایوارڈز",
+  "educationtxt": "تعلیم",
+  "contact": "رابطہ",
+  "skillstxt": "مہارتیں",
+  "awardscertif": "ایوارڈز اور سرٹیفیکیشنز",
+  "skills": [
+    {
+      "name": "HTML",
+      "proficiency": "80%"
+    },
+    {
+      "name": "JavaScript",
+      "proficiency": "100%"
+    },
+    {
+      "name": "TypeScript",
+      "proficiency": "100%"
+    },
+    {
+      "name": "DJANGO",
+      "proficiency": "90%"
+    },
+    {
+      "name": "NEXTJS",
+      "proficiency": "80%"
+    }
+  ],
+  "projects": [
+    {
+      "name": "مائن کرافٹ",
+      "datetime": "21 ستمبر 2021 - 22 ستمبر 2023",
+      "description": "میں نے اسمبلی زبان میں مائن کرافٹ بنایا"
+    },
+    {
+      "name": "مائن کرافٹ 2",
+      "datetime": "21 ستمبر 2021 - 22 ستمبر 2023",
+      "description": "میں نے ٹرانزسٹر پر مشین کوڈ کا استعمال کرتے ہوئے مائن کرافٹ 2 بنایا"
+    }
+  ],
+  "awards": [
+    {
+      "name": "کوڈ رش",
+      "datetime": "21 ستمبر 2023",
+      "description": "کوڈ رش GDSC ITU 2023 میں شرکت کی اور پہلی پوزیشن حاصل کی، الحمدللہ"
+    }
+  ],
+  "education": [
+    {
+      "name": "BSCS",
+      "institute": "انفارمیشن ٹیکنالوجی یونیورسٹی",
+      "datetime": "21 ستمبر 2023",
+      "description": "کوڈ رش GDSC ITU 2023 میں شرکت کی اور پہلی پوزیشن حاصل کی، الحمدللہ"
+    }
+  ]
+}

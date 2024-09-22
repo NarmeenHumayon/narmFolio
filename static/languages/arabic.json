@@ -1,0 +1,58 @@
+{
+  "about": "حول",
+  "projectstxt": "المشاريع",
+  "awardstxt": "الجوائز",
+  "educationtxt": "التعليم",
+  "contact": "الاتصال",
+  "skillstxt": "المهارات",
+  "awardscertif": "الجوائز والشهادات",
+  "skills": [
+    {
+      "name": "HTML",
+      "proficiency": "80%"
+    },
+    {
+      "name": "JavaScript",
+      "proficiency": "100%"
+    },
+    {
+      "name": "TypeScript",
+      "proficiency": "100%"
+    },
+    {
+      "name": "DJANGO",
+      "proficiency": "90%"
+    },
+    {
+      "name": "NEXTJS",
+      "proficiency": "80%"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ماين كرافت",
+      "datetime": "21 سبتمبر 2021 - 22 سبتمبر 2023",
+      "description": "قمت بإنشاء ماين كرافت من الصفر بلغة التجميع"
+    },
+    {
+      "name": "ماين كرافت 2",
+      "datetime": "21 سبتمبر 2021 - 22 سبتمبر 2023",
+      "description": "قمت بإنشاء ماين كرافت 2 من الصفر على ترانزستور باستخدام كود الآلة"
+    }
+  ],
+  "awards": [
+    {
+      "name": "كود راش",
+      "datetime": "21 سبتمبر 2023",
+      "description": "شاركت في كود راش GDSC ITU 2023 وحصلت على المركز الأول، الحمد لله"
+    }
+  ],
+  "education": [
+    {
+      "name": "BSCS",
+      "institute": "جامعة تكنولوجيا المعلومات",
+      "datetime": "21 سبتمبر 2023",
+      "description": "شاركت في كود راش GDSC ITU 2023 وحصلت على المركز الأول، الحمد لله"
+    }
+  ]
+}

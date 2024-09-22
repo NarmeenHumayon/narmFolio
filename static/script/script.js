@@ -51,5 +51,18 @@ responseData.education.forEach(element =>{
         </div>`
 })
 document.getElementById("education_inject").innerHTML=injection
-  }) }
+injection = ""
+responseData.skills.forEach(element=>{
+  injection+=`<div class="skill-box">
+          <span class="title">${element.name}</span>
+
+          <div class="skill-bar">
+            <span class="skill-per html" style="width: ${element.proficiency}">
+              <span class="tooltip">${element.proficiency}</span>
+            </span>
+          </div>
+        </div>`
+}) 
+document.getElementById("skill_inject").innerHTML=injection
+}) }
 load_from_json("english")
