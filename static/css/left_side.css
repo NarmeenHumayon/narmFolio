@@ -19,18 +19,6 @@
   margin: 40px auto;
   border-radius: 50%;
 }
-.left-section-heading {
-  color: white;
-  font-size: 25px;
-  letter-spacing: 2px;
-  font-weight: bold;
-  margin: 0 15px;
-  padding-bottom: 10px;
-  width: fit-content;
-  text-transform: uppercase;
-  border-bottom: 2px solid #ffffff;
-}
-
 .info {
   margin: 25px 15px;
   color: white;

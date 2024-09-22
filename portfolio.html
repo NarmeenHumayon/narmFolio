@@ -14,6 +14,7 @@
     <title>Narmeen Portfolio</title>
   </head>
   <body>
+    <!-- Navigation bar -->
     <nav class="navbar">
       <div class="logo"></div>
       <ul class="nav-links">
@@ -23,10 +24,17 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+    <!-- Left side of the page -->
     <div class="left">
+      <!-- profile pic -->
+      <!-- profile pic is displayed in a div so the image doesnt get distorted when aspect ratio is not 1:1 -->
       <div class="profilePic"></div>
-      <div class="left-section-heading">Contact</div>
+
+      <!-- Contact section -->
+      <div class="section-heading">Contact</div>
+      <!-- div.info is a div with flex-dir column and some gap -->
       <div class="info">
+        <!-- each item has an svg icon and its value -->
         <div class="contact-info-item">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +97,8 @@
         </div>
       </div>
 
-      <div class="left-section-heading" style="margin-top: 20px">Skills</div>
+      <!-- Skills section -->
+      <div class="section-heading" style="margin-top: 20px">Skills</div>
 
       <div class="container">
         <div class="skill-box">
@@ -122,11 +131,14 @@
         </div>
       </div>
     </div>
+    <!-- right side of the page -->
     <div class="right">
+      <!-- Name and qualification -->
       <div class="heading">
         <div class="name">Narmeen Humayoun</div>
         <div class="qualification">Web Developer</div>
       </div>
+      <!-- iframe to display video -->
       <iframe
         style="
           margin: 0 auto;
@@ -141,6 +153,20 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
+      <!-- projects section -->
+      <div
+        class="section-heading"
+        style="color: #005c85; border-color: #005c85; margin: 20px 40px"
+      >
+        Projects
+      </div>
+      <div class="project-card">
+        <div class="p_head">
+          <h1 class="p_name">minecraft</h1>
+          21st sep 2021 - 22nd sep 2023
+        </div>
+        I made minecraft from scratch in assembly language
+      </div>
     </div>
   </body>
 </html>
