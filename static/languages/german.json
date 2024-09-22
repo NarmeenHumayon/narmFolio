@@ -10,27 +10,22 @@
   "experiencetxt": "Erfahrung",
   "referencetxt": "Referenzen",
   "profiletxt": "Ich bin ein engagierter Informatikstudent an der ITU mit praktischer Erfahrung in der Softwareentwicklung und Führungsrollen. Ich habe an verschiedenen Projekten gearbeitet und erkunde weiterhin neue Lernmöglichkeiten.",
-  "skills": [
-    {
-      "name": "HTML",
-      "proficiency": "80%"
-    },
-    {
-      "name": "JavaScript",
-      "proficiency": "100%"
-    },
-    {
-      "name": "TypeScript",
-      "proficiency": "100%"
-    },
-    {
-      "name": "DJANGO",
-      "proficiency": "90%"
-    },
-    {
-      "name": "NEXTJS",
-      "proficiency": "80%"
-    }
+  "skills":[
+    {"name":"HTML",
+    "proficiency":"80%"
+  },
+    {"name":"JavaScript",
+    "proficiency":"100%"
+  },
+    {"name":"CSS",
+    "proficiency":"80%"
+  },
+    {"name":"C++",
+    "proficiency":"100%"
+  },
+    {"name":"SQL",
+    "proficiency":"100%"
+  }
   ],
   "references": [
     {

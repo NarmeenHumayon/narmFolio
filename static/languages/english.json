@@ -17,14 +17,14 @@
     {"name":"JavaScript",
     "proficiency":"100%"
   },
-    {"name":"TypeScript",
+    {"name":"CSS",
+    "proficiency":"80%"
+  },
+    {"name":"C++",
     "proficiency":"100%"
   },
-    {"name":"DJANGO",
-    "proficiency":"90%"
-  },
-    {"name":"NEXTJS",
-    "proficiency":"80%"
+    {"name":"SQL",
+    "proficiency":"100%"
   }
   ],
   "references":[

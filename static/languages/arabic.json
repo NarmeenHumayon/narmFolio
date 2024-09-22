@@ -10,27 +10,22 @@
   "experiencetxt": "التجربة",
   "referencetxt": "المراجع",
   "profiletxt": "أنا طالب م dedicated في علوم الحاسوب في ITU مع خبرة عملية في تطوير البرمجيات وأدوار القيادة. لقد عملت على مشاريع مختلفة وأواصل استكشاف فرص التعلم الجديدة.",
-  "skills": [
-    {
-      "name": "HTML",
-      "proficiency": "80%"
-    },
-    {
-      "name": "JavaScript",
-      "proficiency": "100%"
-    },
-    {
-      "name": "TypeScript",
-      "proficiency": "100%"
-    },
-    {
-      "name": "DJANGO",
-      "proficiency": "90%"
-    },
-    {
-      "name": "NEXTJS",
-      "proficiency": "80%"
-    }
+  "skills":[
+    {"name":"HTML",
+    "proficiency":"80%"
+  },
+    {"name":"JavaScript",
+    "proficiency":"100%"
+  },
+    {"name":"CSS",
+    "proficiency":"80%"
+  },
+    {"name":"C++",
+    "proficiency":"100%"
+  },
+    {"name":"SQL",
+    "proficiency":"100%"
+  }
   ],
   "references": [
     {

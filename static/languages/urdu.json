@@ -10,27 +10,22 @@
   "experiencetxt": "تجربہ",
   "referencetxt": "حوالہ جات",
   "profiletxt": "میں ITU کا ایک وقف شدہ کمپیوٹر سائنس کا طالب علم ہوں جس کے پاس سافٹ ویئر ڈویلپمنٹ اور قیادت کے کرداروں میں عملی تجربہ ہے۔ میں نے مختلف پروجیکٹس پر کام کیا ہے اور نئی سیکھنے کی مواقعوں کی تلاش جاری رکھی ہوئی ہے۔",
-  "skills": [
-    {
-      "name": "HTML",
-      "proficiency": "80%"
-    },
-    {
-      "name": "JavaScript",
-      "proficiency": "100%"
-    },
-    {
-      "name": "TypeScript",
-      "proficiency": "100%"
-    },
-    {
-      "name": "DJANGO",
-      "proficiency": "90%"
-    },
-    {
-      "name": "NEXTJS",
-      "proficiency": "80%"
-    }
+  "skills":[
+    {"name":"HTML",
+    "proficiency":"80%"
+  },
+    {"name":"JavaScript",
+    "proficiency":"100%"
+  },
+    {"name":"CSS",
+    "proficiency":"80%"
+  },
+    {"name":"C++",
+    "proficiency":"100%"
+  },
+    {"name":"SQL",
+    "proficiency":"100%"
+  }
   ],
   "references": [
     {
