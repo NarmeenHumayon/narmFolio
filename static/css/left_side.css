@@ -2,8 +2,7 @@
   margin-top: 50px;
   width: 30%;
   min-width: fit-content;
-  height: inherit;
-  min-height: fit-content;
+  height: fit-content;
   display: flex;
   flex-direction: column;
 
@@ -13,8 +12,10 @@
   background-image: url("../media/profilePic.jpeg");
   background-size: cover;
   background-position: center;
-  aspect-ratio: 1;
+  height: 250px;
+  min-height: 250px;
   width: 250px;
+  min-width: 250px;
   margin: 40px auto;
   border-radius: 50%;
 }
