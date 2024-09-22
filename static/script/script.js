@@ -1,3 +1,11 @@
+var mode = window.localStorage.getItem("mode") 
+if(mode != null){
+  if(mode == "dark"){
+    changeModeToDark();
+    document.getElementById("checkbox").checked=true;
+  }
+}
+load_from_json("english")
 function load_from_json(language){var responseData
 fetch(`/static/languages/${language}.json`)
   .then((response) => 
@@ -65,4 +73,28 @@ responseData.skills.forEach(element=>{
 }) 
 document.getElementById("skill_inject").innerHTML=injection
 }) }
-load_from_json("english")
+function switchMode(e){
+  if(e.checked){
+    window.localStorage.setItem("mode","dark")
+    changeModeToDark() 
+  }else{
+    window.localStorage.setItem("mode","light")
+    changeModeToLight()  
+  }
+}
+function changeModeToDark(){
+  var maincss = document.getElementById("maincss")
+  var leftcss = document.getElementById("leftcss")
+  var rightcss = document.getElementById("rightcss")
+  maincss.setAttribute("href","static/css/dark/portfolio.css")
+  leftcss.setAttribute("href","static/css/dark/left_side.css")
+  rightcss.setAttribute("href","static/css/dark/right_side.css")
+}
+function changeModeToLight(){
+  var maincss = document.getElementById("maincss")
+  var leftcss = document.getElementById("leftcss")
+  var rightcss = document.getElementById("rightcss")
+  maincss.setAttribute("href","static/css/portfolio.css")
+  leftcss.setAttribute("href","static/css/left_side.css")
+  rightcss.setAttribute("href","static/css/right_side.css")
+}

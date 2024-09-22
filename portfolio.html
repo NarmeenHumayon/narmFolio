@@ -8,15 +8,22 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="static/css/portfolio.css" />
-    <link rel="stylesheet" href="static/css/left_side.css" />
-    <link rel="stylesheet" href="static/css/right_side.css" />
+    <link rel="stylesheet" id="maincss" href="static/css/portfolio.css" />
+    <link rel="stylesheet" id="leftcss" href="static/css/left_side.css" />
+    <link rel="stylesheet" id="rightcss" href="static/css/right_side.css" />
     <title>Narmeen Portfolio</title>
   </head>
   <body>
     <!-- Navigation bar -->
     <nav class="navbar">
-      <div class="logo"></div>
+      <div class="logo">
+        <input
+          type="checkbox"
+          class="theme-checkbox"
+          id="checkbox"
+          onclick="switchMode(this)"
+        />
+      </div>
       <ul class="nav-links">
         <li><a href="#about" class="about"></a></li>
         <li><a href="#projects" class="project"> </a></li>
