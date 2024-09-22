@@ -6,3 +6,39 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  position: fixed;
+  background-color: #0a339c;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 5px 2px #0000003e;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background 0.3s;
+}
