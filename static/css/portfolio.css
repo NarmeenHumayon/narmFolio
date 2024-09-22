@@ -13,12 +13,19 @@ body {
   padding: 20px 20px;
   position: fixed;
   background-color: #005ac0;
+  z-index: 2;
   top: 0;
   left: 0;
   right: 0;
   box-shadow: 0 0 5px 2px #0000003e;
 }
-
+.navbar a {
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+.navbar a:hover {
+  background-color: #063f7f;
+}
 .logo {
   color: #fff;
   font-size: 24px;
