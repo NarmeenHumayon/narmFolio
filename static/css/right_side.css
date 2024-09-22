@@ -1,0 +1,8 @@
+.right {
+  margin-top: 100px;
+  width: 70%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
