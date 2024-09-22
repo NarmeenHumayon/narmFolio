@@ -67,6 +67,29 @@ body {
   fill: white;
   margin-left: 10px;
 }
+.lang-options {
+  position: absolute;
+  display: none;
+  color: white;
+  background-color: #141414;
+  padding: 10px 0;
+  border-radius: 5px;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 2px;
+}
+.drop-down:hover .lang-options {
+  display: flex;
+}
+.option {
+  font-size: 12px;
+  padding: 0 15px;
+  cursor: pointer;
+  transform: color 0.3s ease;
+}
+.option:hover {
+  color: #b3b3b3;
+}
 .section-heading {
   color: white;
   font-size: 25px;

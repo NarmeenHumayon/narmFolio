@@ -67,6 +67,30 @@ body {
   fill: rgb(32, 32, 32);
   margin-left: 10px;
 }
+.lang-options {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  border-radius: 5px;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid #cecece;
+  margin-top: 2px;
+}
+.drop-down:hover .lang-options {
+  display: flex;
+}
+.option {
+  font-size: 12px;
+  padding: 0 15px;
+  cursor: pointer;
+  transform: color 0.3s ease;
+}
+.option:hover {
+  color: #4d4d4d;
+}
 .section-heading {
   color: white;
   font-size: 25px;

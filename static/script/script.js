@@ -5,8 +5,15 @@ if(mode != null){
     document.getElementById("checkbox").checked=true;
   }
 }
-load_from_json("english")
-function load_from_json(language){var responseData
+var language = window.localStorage.getItem("language") 
+if(language != null){
+  load_from_json(language)
+}else{
+load_from_json("english")}
+function load_from_json(language){
+  window.localStorage.setItem("language",language)
+  document.getElementById("lang_dd").textContent = language
+  var responseData
 fetch(`/static/languages/${language}.json`)
   .then((response) => 
     response.json() // Return the promise
