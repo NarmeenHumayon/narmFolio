@@ -163,3 +163,8 @@ body {
 .theme-checkbox:checked {
   background-position: 100%;
 }
+@media only screen and (max-width: 600px) {
+  .navigation-ops {
+    display: none;
+  }
+}
