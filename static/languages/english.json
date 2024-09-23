@@ -6,6 +6,10 @@
   "contact":"Contact",
   "skillstxt":"Skills", 
   "awardscertif":"AWARDS & CERTIFICATIONS",
+  "profilehead":"Profile",
+  "experiencetxt":"Experience",
+  "referencetxt":"References",
+  "profiletxt":"I'm a dedicated Computer Science student at ITU with hands-on experience in software development and leadership roles. I have worked on various projects and continue to explore new learning opportunities.",
   "skills":[
     {"name":"HTML",
     "proficiency":"80%"
@@ -23,29 +27,100 @@
     "proficiency":"80%"
   }
   ],
+  "references":[
+    {
+    "name":"Sir Luqman Ali Afzal",
+    "occupation":"CEO -The Monal Group",
+    "phone":"051-111-777-778",
+    "email":"hr@themonal.com"
+  },
+    {
+    "name":"Sir Humayon Qaiser",
+    "occupation":"CEO -Honda Ring Road",
+    "phone":"+92-3008483195",
+    "email":"humayon.qaiser@gmail.com"
+  },
+    {
+    "name":"Sir Sarfaraz Raza",
+    "occupation":"Professor- PF/OOP/DSA",
+    "phone":"042-111-111-ITU(488)",
+    "email":"sarfraz.raza@itu.edu.pk"
+  }
+
+],
   "projects": [
     {
-        "name":"minecraft",
-        "datetime":"21st sep 2021 - 22nd sep 2023",
-        "description":"I made minecraft from scratch in assembly language"
+        "name":"Sport Arena Booking website",
+        "datetime":"May 2024",
+        "description":"Using MongoDB, HTML, CSS, Java"
     },
     {
-        "name":"minecraft2",
-        "datetime":"21st sep 2021 - 22nd sep 2023",
-        "description":"I made minecraft2 from scratch on a transistor using machine code"
-    }
-  ],"awards": [
+        "name":"1 week STEM workshop",
+        "datetime":"June 2024",
+        "description":"Training students to use Arduino to make projects"
+    },
     {
-        "name":"Code Rush",
-        "datetime":"21st sep 2023",
-        "description":"Participated in code rush GDSC ITU 2023 and got 1st position Alhamdulillah"
-    } 
+        "name":"UAV drone",
+        "datetime":"May 2024",
+        "description":"With a group of 6 fellow members, made a UAV drone model that can fly, and capture video. Using integrated AI system, detects faulty crops and reports to database"
+    }
+  ],
+  "experience":[
+    {
+        "name":" Teaching Assistant- Discrete Structures",
+        "institute":"<a target='_blank'target='_blank' href='https://itu.edu.pk/'>Information Technology University, Punjab</a>",
+        "datetime":"Aug 2024 - present",
+        "description":" I am working with Dr. Mudassir Shabbir as TA for batch 2024. My key responsibilities include monitoring class, checking class activities, delivering a help session for students once every week"},
+        {
+          "name":" Friends Of Corner- Internship",
+        "institute":"<a target='_blank'href='https://pk.usembassy.gov/lincoln-corners-pakistan/'>Lincoln Corners, Lahore Consulate</a>",
+        "datetime":"Aug 2024 - present",
+        "description":"Recently started an internship with lincoln corners. I organise amd manage evemnts at the space like Summer STEM workshop"
+        },
+        {
+          "name":"HR Manager- Internship(Affiliate Program)",
+          "datetime":"Dec 2022 - Aug 2024",
+          "institute":"<a target='_blank'href='https://preply.com/'>Preply</a>",
+          "description":"As a manager, I interview and hire teachers and make their tachong profiles online. Then I personally train teachers with how to teach sucessfully online."
+        },
+        {
+          "name":"6 Week Summer Program- Internship",
+          "datetime":"Dec 2022 - Aug 2024",
+          "institute":"<a target='_blank'href='https://themonal.com/'>Monal Group</a>",
+          "description":" As intern, spend a week in every department HR, Admin, Operations, Kitchen & Procurement Management, Customer Representative."
+        }
+  ],
+  "awards": [
+    {
+        "name":"The Monal Group",
+        "datetime":"2023",
+        "description":"I completed a 4-Week intense internship program at The Monal Group, where I was introduced to all departments of a basic (Restaurant) Business: HR,Admin,Kitchen,Operations,Customer Service, Database SYstems. The intense program familiarised me to how to lead an organisation, manage employees and handle day-to-day problems and activities."
+    },
+    {
+        "name":"IEEE Society",
+        "datetime":"2022",
+        "description":" As a member of the IEEE Society, I worked as a Graphic Designer, making 2/3 posts a week as well as having the opportunity to attend the society events and competitions. It was a good learning journey!"
+    }
   ],"education": [
     {
-        "name":"BSCS",
-        "institute":"Information Technology University",
-        "datetime":"21st sep 2023",
-        "description":"Participated in code rush GDSC ITU 2023 and got 1st position Alhamdulillah"
+        "name":"Bachelors in Computer Science",
+        "institute":"Information Technology University, Punjab",
+        "datetime":"2022 - 2026",
+        "description":"<b>3.83/4.00 CGPA</b>"
+
+    },
+    {
+        "name":"A-Levels (Sciences)",
+        "institute":"Lahore Grammar School 1 A-1",
+        "datetime":"2022 - 2026",
+        "description":"<b>4 A*s</b>"
+
+    },
+    {
+        "name":"O-Levels (Sciences)",
+        "institute":"LACAS JT,Girl",
+        "datetime":"2016 - 2020",
+        "description":"<b>10 A*s</b>"
 
     }
   ]

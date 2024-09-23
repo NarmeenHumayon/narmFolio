@@ -6,6 +6,10 @@
   "contact": "Kontakt",
   "skillstxt": "Fähigkeiten",
   "awardscertif": "AUSZEICHNUNGEN & ZERTIFIKATE",
+  "profilehead": "Profil",
+  "experiencetxt": "Erfahrung",
+  "referencetxt": "Referenzen",
+  "profiletxt": "Ich bin ein engagierter Informatikstudent an der ITU mit praktischer Erfahrung in der Softwareentwicklung und Führungsrollen. Ich habe an verschiedenen Projekten gearbeitet und erkunde weiterhin neue Lernmöglichkeiten.",
   "skills": [
     {
       "name": "HTML",
@@ -28,31 +32,99 @@
       "proficiency": "80%"
     }
   ],
-  "projects": [
+  "references": [
     {
-      "name": "Minecraft",
-      "datetime": "21. September 2021 - 22. September 2023",
-      "description": "Ich habe Minecraft von Grund auf in Assemblersprache gemacht"
+      "name": "Herr Luqman Ali Afzal",
+      "occupation": "CEO - Die Monal Gruppe",
+      "phone": "051-111-777-778",
+      "email": "hr@themonal.com"
     },
     {
-      "name": "Minecraft 2",
-      "datetime": "21. September 2021 - 22. September 2023",
-      "description": "Ich habe Minecraft 2 von Grund auf auf einem Transistor mit Maschinenkode erstellt"
+      "name": "Herr Humayon Qaiser",
+      "occupation": "CEO - Honda Ring Road",
+      "phone": "+92-3008483195",
+      "email": "humayon.qaiser@gmail.com"
+    },
+    {
+      "name": "Herr Sarfaraz Raza",
+      "occupation": "Professor - PF/OOP/DSA",
+      "phone": "042-111-111-ITU(488)",
+      "email": "sarfraz.raza@itu.edu.pk"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Website zur Buchung von Sportarenen",
+      "datetime": "Mai 2024",
+      "description": "Mit MongoDB, HTML, CSS, Java"
+    },
+    {
+      "name": "1-wöchiger STEM-Workshop",
+      "datetime": "Juni 2024",
+      "description": "Schulung von Studenten zur Nutzung von Arduino zur Erstellung von Projekten"
+    },
+    {
+      "name": "UAV-Drohne",
+      "datetime": "Mai 2024",
+      "description": "Mit einer Gruppe von 6 Mitgliedern haben wir ein UAV-Drohnenmodell erstellt, das fliegen und Videos aufnehmen kann. Mit einem integrierten KI-System werden fehlerhafte Ernten erkannt und an die Datenbank gemeldet."
+    }
+  ],
+  "experience": [
+    {
+      "name": "Lehrassistent - Diskrete Strukturen",
+      "institute": "<a target='_blank'href='https://itu.edu.pk/'>Informationstechnologie-Universität, Punjab</a>",
+      "datetime": "Aug 2024 - jetzt",
+      "description": "Ich arbeite mit Dr. Mudassir Shabbir als TA für die Gruppe 2024. Zu meinen Hauptverantwortlichkeiten gehören die Überwachung des Unterrichts, die Überprüfung der Klassenaktivitäten und die Durchführung einer Hilfsstunde für Studenten einmal pro Woche."
+    },
+    {
+      "name": "Freunde der Ecke - Praktikum",
+      "institute": "<a target='_blank'href='https://pk.usembassy.gov/lincoln-corners-pakistan/'>Lincoln Corners, Konsulat in Lahore</a>",
+      "datetime": "Aug 2024 - jetzt",
+      "description": "Ich habe kürzlich ein Praktikum bei Lincoln Corners begonnen. Ich organisiere und verwalte Veranstaltungen im Raum, wie z.B. den Sommer-STEM-Workshop."
+    },
+    {
+      "name": "HR-Manager - Praktikum (Affiliate-Programm)",
+      "datetime": "Dez 2022 - Aug 2024",
+      "institute": "<a target='_blank'href='https://preply.com/'>Preply</a>",
+      "description": "Als Manager führe ich Interviews mit Lehrern und stelle sie ein und erstelle ihre Online-Lehrprofile. Dann trainiere ich die Lehrer persönlich, wie sie erfolgreich online unterrichten."
+    },
+    {
+      "name": "6-wöchiges Sommerprogramm - Praktikum",
+      "datetime": "Dez 2022 - Aug 2024",
+      "institute": "<a target='_blank'href='https://themonal.com/'>Monal Gruppe</a>",
+      "description": "Als Praktikant verbringe ich eine Woche in jeder Abteilung: HR, Verwaltung, Betrieb, Küche & Beschaffungsmanagement, Kundenvertretung."
     }
   ],
   "awards": [
     {
-      "name": "Code Rush",
-      "datetime": "21. September 2023",
-      "description": "Teilgenommen am Code Rush GDSC ITU 2023 und den 1. Platz erreicht, Alhamdulillah"
+      "name": "Die Monal Gruppe",
+      "datetime": "2023",
+      "description": "Ich habe ein intensives 4-wöchiges Praktikumsprogramm bei der Monal Gruppe abgeschlossen, bei dem ich in alle Abteilungen eines grundlegenden (Restaurant-) Geschäfts eingeführt wurde: HR, Verwaltung, Küche, Betrieb, Kundenservice, Datenbanksysteme. Das intensive Programm hat mir vertraut gemacht, wie man eine Organisation führt, Mitarbeiter verwaltet und alltägliche Probleme und Aktivitäten bewältigt."
+    },
+    {
+      "name": "IEEE Gesellschaft",
+      "datetime": "2022",
+      "description": "Als Mitglied der IEEE Gesellschaft arbeitete ich als Grafikdesigner und erstellte 2/3 Beiträge pro Woche und hatte die Möglichkeit, an den Veranstaltungen und Wettbewerben der Gesellschaft teilzunehmen. Es war eine gute Lernreise!"
     }
   ],
   "education": [
     {
-      "name": "BSCS",
-      "institute": "Universität für Informationstechnologie",
-      "datetime": "21. September 2023",
-      "description": "Teilgenommen am Code Rush GDSC ITU 2023 und den 1. Platz erreicht, Alhamdulillah"
+      "name": "Bachelor in Informatik",
+      "institute": "Informationstechnologie-Universität, Punjab",
+      "datetime": "2022 - 2026",
+      "description": "<b>3.83/4.00 CGPA</b>"
+    },
+    {
+      "name": "A-Levels (Wissenschaften)",
+      "institute": "Lahore Grammar School 1 A-1",
+      "datetime": "2022 - 2026",
+      "description": "<b>4 A*</b>"
+    },
+    {
+      "name": "O-Levels (Wissenschaften)",
+      "institute": "LACAS JT, Mädchen",
+      "datetime": "2016 - 2020",
+      "description": "<b>10 A*</b>"
     }
   ]
 }
