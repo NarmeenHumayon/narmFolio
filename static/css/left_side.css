@@ -7,10 +7,16 @@
   display: flex;
   flex-direction: column;
 
-  background-color: #005c85;
+  background-color: #d28e8e;
 }
 .left .heading {
   display: none;
+}
+#profiletxt {
+  max-width: 30vw;
+  margin: 15px;
+  color: white;
+  font-size: 12px;
 }
 .profilePic {
   background-image: url("../media/profilePic.jpeg");
@@ -31,12 +37,12 @@
   flex-direction: column;
   gap: 15px;
 }
-.info a {
+.left a {
   text-decoration: none;
   color: rgb(178, 227, 255);
   transition: all 0.3s ease;
 }
-.info a:hover {
+.left a:hover {
   color: rgb(5, 100, 243);
   text-decoration: underline;
 }
@@ -123,4 +129,26 @@
   z-index: -1;
   background-color: rgb(226, 226, 226);
   transform: translateX(-50%) rotate(45deg);
+}
+.reference-card {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.r_name {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 0;
+}
+.occupation {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 5px 0;
+  margin-bottom: 10px;
 }

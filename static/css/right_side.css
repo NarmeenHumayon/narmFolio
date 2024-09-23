@@ -4,11 +4,10 @@
   height: inherit;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
 }
 .right .section-heading {
-  color: #005c85;
-  border-color: #005c85;
+  color: #d28e8e;
+  border-color: #d28e8e;
   margin: 20px 40px;
 }
 
@@ -43,20 +42,20 @@
   box-shadow: 0 5px 10px 2px #00000046;
   width: 90%;
   padding: 10px;
-  margin: 10px 40px;
-  font-size: 15px;
+  margin: 20px 40px;
+  font-size: 12px;
   border-radius: 5px;
 }
 .p_head {
   display: flex;
   width: 100%;
   font-size: 12px;
-  color: #398dfa;
+  color: #d28e8e;
   justify-content: space-between;
 }
 .p_name {
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 0;
 }
 
@@ -65,20 +64,20 @@
   box-shadow: 0 5px 10px 2px #00000046;
   width: 90%;
   padding: 10px;
-  margin: 0 40px;
-  font-size: 15px;
+  margin: 20px 40px;
+  font-size: 12px;
   border-radius: 5px;
 }
 .e_head {
   display: flex;
   width: 100%;
   font-size: 12px;
-  color: #398dfa;
+  color: #d28e8e;
   justify-content: space-between;
 }
 .e_name {
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0;
 }
 .institute {
